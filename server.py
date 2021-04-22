@@ -1,6 +1,6 @@
-#!/usr/bin/python
-# put togetherthe work ofMatt Hawkins (21/01/2018) https://www.raspberrypi-spy.co.uk/2016/07/using-bme280-i2c-temperature-pressure-sensor-in-python/ and Matteo Abrate
-# https://gist.github.com/nitaku/10d0662536f37a087e1b quick and dirty
+#!/usr/bin/env python
+# put togetherthe work of Matt Hawkins (21/01/2018) https://www.raspberrypi-spy.co.uk/2016/07/using-bme280-i2c-temperature-pressure-sensor-in-python/ and Matteo Abrate
+# https://gist.github.com/nitaku/10d0662536f37a087e1b quick and dirty by Yves Jeanrenaud
 # this script is run via #screen -dmS bme280_json python3 server.py
 
 from BaseHTTPServer import BaseHTTPRequestHandler, HTTPServer
